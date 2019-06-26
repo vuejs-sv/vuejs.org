@@ -19,7 +19,7 @@
     <% } %>
   <% } %>
   <% if (page.title.trim()) { %>
-    <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
+    <h1><%- page.title %><%- page.type === 'examples' ? ' Exempel' : '' %></h1>
   <% } %>
   <% if (page.sponsors) { %>
     <%- partial('sponsors-page') %>
@@ -44,9 +44,9 @@
     <%_ if (!page.sponsors) { _%>
       <%- partial('partials/ad-text') %>
     <%_ } _%>
-    Caught a mistake or want to contribute to the documentation?
+    Hittade ett misstag eller vill bara bidra till dokumentationen?
     <a href="https://github.com/vuejs/vuejs.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
-      Edit this page on GitHub!
+      Redigera den här sidan på GitHub!
     </a>
   </div>
 </div>
